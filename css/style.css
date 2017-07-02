@@ -1,0 +1,35 @@
+* {
+	color: #1ec503;
+	-webkit-user-select: none;
+	overflow: hidden;
+}
+
+body {
+	background-color: black;
+}
+
+.signs {
+	text-shadow: 1px 1px 20px #7cfd68;
+}
+
+@keyframes matrix {
+	0%{transform: translateY(calc(100% + 722px));}
+	100%{transform: translateY(calc(0% - 722px));}
+}
+
+.firstLetter {
+	color: white;
+	text-shadow: 1px 1px 20px white;
+}
+
+.lastLetter {
+	opacity: 0.25;
+}
+
+.almostLastLetter {
+	opacity: 0.50;
+}
+
+.almostAlmostLastLetter {
+	opacity: 0.75;
+}
